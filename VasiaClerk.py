@@ -33,3 +33,5 @@ sample = list(np.random.choice([25, 50, 100], 10, p=[0.55, 0.3, 0.15]))
 print(tickets(sample))
 
 print(sample)
+more_samples = sample*5
+print(tickets(more_samples))
